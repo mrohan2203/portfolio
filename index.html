@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Murugan - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Page 1 -->
+  <section id="page1" class="page light-bg">
+    <div class="card">
+      <img src="rohan.jpg" alt="Rohan Murugan" class="profile-pic" />
+      <div class="info">
+        <h1>Rohan Murugan</h1>
+        <h3>Data Analyst</h3>
+        <p>
+          Data Analyst proficient in Machine Learning, SQL, and AI-driven analytics, with expertise in predictive modeling,
+          marketing analytics, and large-scale data processing to enhance </br> business growth.
+        </p>
+        <div class="icons">
+          <a href="https://www.github.com/mrohan2203/"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rohanmuru/"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:rohan.muru2203@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <button onclick="scrollToPage('page2')">Click to see my resume</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page 2 -->
+  <section id="page2" class="page light-bg">
+    <div class="resume-card">
+      <div class="column">
+        <h2>Education</h2>
+        <p><strong>The University of Texas at Dallas, Richardson, TX</strong><br>
+        M.S. in Business Analytics and Artificial Intelligence<br>
+        3.80/4.0</p>
+
+        <p><strong>VIT University, Vellore, India</strong><br>
+        B.Tech in Computer Science and Engineering<br>
+        3.54/4.0</p>
+
+        <h2>Experience</h2>
+        <p><strong>Sinebyte</strong><br>
+        Software Engineer Intern</p>
+
+        <p><strong>Deepkore</strong><br>
+        Data Science Intern</p>
+
+        <p><strong>IoThinC – VIT University</strong><br>
+        Management Head</p>
+      </div>
+
+      <div class="column">
+        <h2>Projects</h2>
+        <p><strong>YourHungry AI – Online Culinary Assistant</strong><br>
+        <a href="https://www.yourhungry.net" target="_blank">Website</a></p>
+
+        <p><strong>American Express Credit Default Prediction</strong><br>
+        <a href="https://github.com/mrohan2203/credit-risk-prediction" target="_blank">GitHub Project Link</a></p>
+
+        <h2>Certifications/Badges</h2>
+        <p><strong>Amazon Web Services</strong><br>
+        <a href="https://www.credly.com/badges/b588f34a-32db-49ac-9785-23f4e040b411/linked_in_profile" target="_blank">CLF-C02: Cloud Practitioner</a></p>
+
+        <p><strong>Microsoft Azure</strong><br>
+        <a href="https://learn.microsoft.com/en-us/users/rohanponsuryamurugan-4676/credentials/1c398790f5bd2e0?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank">Data Science Associate</a></p>
+
+        <p><strong>SAP</strong><br>
+        S/4 HANA 2.0, Analytics Cloud</p>
+
+        <button onclick="scrollToPage('page1')">Back to Main</button>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function scrollToPage(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
