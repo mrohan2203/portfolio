@@ -28,6 +28,6 @@ I am a graduate student at the University of Texas at Dallas, pursuing Business 
 
 ## 📫 Contact
 - **Email**: rohan.muru2203@gmail.com  
-- **LinkedIn**: [linkedin.com/in/rohan-murugan](https://linkedin.com/in/rohan-murugan)
+- **LinkedIn**: [linkedin.com/in/rohanmuru](https://linkedin.com/in/rohanmuru)
 
 ---
